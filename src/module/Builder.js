@@ -9,7 +9,6 @@ import { scroller } from 'react-scroll';
 import './Builder.css';
 import Header from './Header';
 
-
 const handleClick = (id) => {
     if (id === 'infoon') {
         scroller.scrollTo('info-kortti', {
@@ -21,6 +20,8 @@ const handleClick = (id) => {
 
 }
 
+// Builds majority of landing page with help of cards
+// Some of the cards utilize the data given in their parameters
 function Builder() {
     return (
         <Box
