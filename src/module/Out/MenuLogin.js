@@ -20,26 +20,6 @@ export default function MenuLogin () {
   function handleItemClick (event, value) {
     setAnchorEl(null);
     navigate("/form");
-    /*
-    var Scroll   = require('react-scroll');
-    var scroller = Scroll.scroller;
-    
-    var veehoo = window.innerHeight * 0.01;
-    
-    if (value === 1) {
-      setPage("form");
-      
-    }
-    /*
-    }
-    else if (value === 2) {
-      scroller.scrollTo("info-kortit", {
-        smooth: true,
-        delay: 100,
-        offset: -(veehoo*2.25),
-      });
-    }
-    */
   }
 
 

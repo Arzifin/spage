@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Button, Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
-import './ImageCardInfo.css';
 
 export default function ImageCardInfo({ para }) {
     return (
@@ -131,7 +130,7 @@ export default function ImageCardInfo({ para }) {
                                         },
                                     }}
                                 >
-                                    Learn more
+                                    PARTAKE
                                 </Typography>
                             </Button>
                         </Box>

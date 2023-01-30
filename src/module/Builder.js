@@ -2,10 +2,10 @@ import * as React from 'react';
 import ImageCardTemplate from './ImageCardTemplate';
 import ImageCardInfo from './ImageCardInfo';
 import CardContact from './CardContact';
-import data from './data';
+import data from './Data/data';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import { Box, IconButton, } from '@mui/material';
-import { Link, DirectLink, Element, Events, animateScroll, scrollSpy, scroller } from 'react-scroll';
+import { scroller } from 'react-scroll';
 import './Builder.css';
 import Header from './Header';
 
@@ -26,7 +26,6 @@ function Builder() {
         <Box
             id="uloinLaatikko"
             sx={{
-                //minHeight: '100vh',
                 display: 'flex',
                 width: '100%',
                 justifyContent: 'center',
@@ -69,7 +68,6 @@ function Builder() {
                 >
                     <KeyboardArrowDownIcon
                         id="infoon"
-                        //className={styling.down}
                         style={{
                             color: '#fff',
                             fontSize: '5rem',
@@ -94,9 +92,8 @@ function Builder() {
             </div>
             <div
                 id="ilmo-kortti"
-                style={{ //marginBottom: '15vh', 
+                style={{
                     marginBottom: '15vh',
-                    //paddingTop: '10vh',
                 }}
             >
 

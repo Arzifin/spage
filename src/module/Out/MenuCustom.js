@@ -4,7 +4,7 @@ import { PhotoCameraBack as PhotoCameraBackIcon, Create as CreateIcon,
   MenuBook as MenuBookIcon, Menu as MenuIcon, Info as InfoIcon, Hotel as HotelIcon,
   Navigation as NavitationIcon, School as SchoolIcon, Phone as PhoneIcon, Home as HomeIcon,
 } from '@mui/icons-material';
-import { Link, DirectLink, Element, Events, animateScroll, scrollSpy, scroller } from 'react-scroll';
+import { scroller } from 'react-scroll';
 import { useNavigate } from 'react-router-dom';
 import "./MenuCustom.css";
 
@@ -14,21 +14,14 @@ export default function MenuCustom() {
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
-    //console.log('I was triggered')
   };
 
   const handleMenuItemClick = (value) => {
-    
-    //console.log(value);
-    /*let id = event.target.id;*/
-    //console.log("menin", event.target.id);
     if (value === "info") {
-      //console.log("toimin");
         scroller.scrollTo('info-kortti', {
             duration: 800,
             delay: 0,
             smooth: 'easeInOutQuart',
-            //offset: - (Math.round(window.innerHeight / 100) * 75),
         });
     }
     else if (value === 'ilmo') {
@@ -86,16 +79,12 @@ export default function MenuCustom() {
 
   const handleClose = () => {
     setAnchorEl(null);
-    //setOpen(!isOpen);
   };
 
 
   return (
     // Muutettu valikko, jossa voi kustomisoida ikonin valikkoalkion viereen
     <Box
-      sx={{
-        //marginLeft: '0.05vh',
-      }}
     >
       <IconButton
         aria-controls="customized-menu"
@@ -103,7 +92,6 @@ export default function MenuCustom() {
         onClick={handleClick}
         style={{
           color: '#fff',
-          //paddingLeft: '3vw',
         }}
       >
         <MenuIcon
