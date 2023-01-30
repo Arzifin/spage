@@ -38,7 +38,7 @@ const data = [
         Interdum et malesuada fames ac ante ipsum primis in faucibus. 
         Etiam finibus pretium orci, id volutpat enim eleifend a. 
         Pellentesque sit amet ligula et nunc lacinia vehicula. `,
-        pic: process.env.PUBLIC_URL + '/assets/kuva6.jpeg',
+        pic: process.env.PUBLIC_URL + '/assets/kuva6.jpg',
         // Kuvan kuvaus
         pde: "Kytäjän kartano",
     },
@@ -49,7 +49,7 @@ const data = [
         Donec eu arcu velit. Maecenas eget velit consectetur, accumsan nibh a, tempus ipsum. 
         Proin dictum vitae tortor quis fringilla. Vivamus elementum ornare dui nec tristique. 
         Aliquam lacinia ligula ornare sapien gravida, vehicula vestibulum lorem ornare.`,
-        pic: process.env.PUBLIC_URL + '/assets/kuva7.jpeg',
+        pic: process.env.PUBLIC_URL + '/assets/kuva7.jpg',
         // Kuvan kuvaus
         pde: "Kytäjän kartano",
     },
@@ -61,7 +61,7 @@ const data = [
         Nullam vel ante imperdiet, feugiat ex quis, pharetra nibh. 
         Etiam sapien felis, porta eget iaculis id, molestie vel elit. 
         Morbi dictum eros eu interdum rutrum. `,
-        pic: process.env.PUBLIC_URL + '/assets/kuva30.jpeg',
+        pic: process.env.PUBLIC_URL + '/assets/kuva30.jpg',
         // Kuvan kuvaus
         pde: "Kytäjän kartano",
     },
