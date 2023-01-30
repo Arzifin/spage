@@ -10,11 +10,11 @@ import Header from './module/Header';
 function App() {
   
   React.useEffect(() => {
-    document.title = "9.7.2022";
+    document.title = "spage";
   }, []);
   
   return (
-    <Box id="taustafiltteri">
+    <Box id="backgroundFilter">
       <Router>
         <Routes>
           <Route path="/" element={<Homepage />} />

@@ -123,7 +123,7 @@ export default function MenuCustom() {
             <HomeIcon fontSize="small" />
           </ListItemIcon>
           <ListItemText
-            primary="Otsikko"
+            primary="Header"
           />
         </MenuItem>
         <MenuItem
@@ -134,7 +134,7 @@ export default function MenuCustom() {
             <InfoIcon fontSize="small" />
           </ListItemIcon>
           <ListItemText
-            primary="Kuvat"
+            primary="Header #1"
           />
         </MenuItem>
         <MenuItem
@@ -145,7 +145,7 @@ export default function MenuCustom() {
             <CreateIcon fontSize="small" />
           </ListItemIcon>
           <ListItemText
-            primary="Ilmoittautuminen"
+            primary="Header #2"
           />
         </MenuItem>
         <MenuItem
@@ -156,7 +156,7 @@ export default function MenuCustom() {
             <NavitationIcon fontSize="small" />
           </ListItemIcon>
           <ListItemText
-            primary="Kuinka pääsen perille"
+            primary="Header #3"
           />
         </MenuItem>
         <MenuItem
@@ -167,7 +167,7 @@ export default function MenuCustom() {
             <HotelIcon fontSize="small" />
           </ListItemIcon>
           <ListItemText
-            primary="Majoitus"
+            primary="Header #4"
           />
         </MenuItem>
         <MenuItem
@@ -178,7 +178,7 @@ export default function MenuCustom() {
             <PhotoCameraBackIcon fontSize="small" />
           </ListItemIcon>
           <ListItemText
-            primary="Valokuvat"
+            primary="Header #5"
           />
         </MenuItem>
         <MenuItem
@@ -189,7 +189,7 @@ export default function MenuCustom() {
             <SchoolIcon fontSize="small" />
           </ListItemIcon>
           <ListItemText
-            primary="Tiedoksi"
+            primary="Header #6"
           />
         </MenuItem>
         <MenuItem
@@ -200,7 +200,7 @@ export default function MenuCustom() {
             <PhoneIcon fontSize="small" />
           </ListItemIcon>
           <ListItemText
-            primary="Yhteystiedot"
+            primary="Contact Info"
           />
         </MenuItem>
       </Menu>
